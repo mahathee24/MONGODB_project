@@ -1,0 +1,28 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.create_form input{
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border-bottom: 2px solid;
+}
+.create_form button{
+  margin: 10px;
+  padding: 10px;
+  width: 80px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  cursor:pointer;
+}
+.create_form button:hover{
+  background-color: #45a049;
+}
