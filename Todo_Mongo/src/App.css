@@ -26,3 +26,43 @@
 .create_form button:hover{
   background-color: #45a049;
 }
+.task {
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+
+/* Fixed styles for checkbox and icon */
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+.line_through{
+  text-decoration: line-through;
+}
+.checkbox .icon {
+  margin-right: 8px;
+  color: #4CAF50;
+  cursor: pointer;
+}
+
+.task div span {
+  cursor: pointer;
+}
+
+.task div .icon {
+  color: rgb(193, 173, 173);
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.task div .icon:hover {
+  color: rgb(39, 153, 60);
+}
