@@ -1,1 +1,1 @@
-# Todo List Using MERN
+# Todo list using MERN 
